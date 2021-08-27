@@ -1,0 +1,3 @@
+RewriteEngine On
+ RewriteCond %{HTTP_HOST} ^dc\.nesox\.cf$ [NC]
+ RewriteRule ^(.*) https://discord.gg/KPsQAr8K6V$1 [L,R]
