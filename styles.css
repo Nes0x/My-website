@@ -1,0 +1,6 @@
+@font-face { font-family: Orbitron; src: url('fonts/Orbitron-Medium.ttf'); } 
+.center {
+    text-align: center;
+    color: rgb(201, 195, 195);
+    font-family: Orbitron;
+}
