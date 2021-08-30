@@ -1,9 +1,48 @@
 @font-face {
-    src: url("fonts/JetBrainsMono-Regular.ttf");
+    src: url('fonts/JetBrainsMono-Regular.ttf');
     font-family: Regular;
     } 
 .center {
     text-align: center;
+}
+.bigger-font {
+    font-size: 90px;
+}
+
+main, .better-font, footer a, main a {
     color: rgb(201, 195, 195);
     font-family: Regular;
+}
+
+header a {
+    color: aliceblue;
+    font-family: Regular;
+    text-decoration: none;
+}
+ul li {
+    display: inline;
+    margin-left: 20px;
+    
+}
+ul {
+    text-align: center;
+    
+}
+
+header {
+    background-color: rgb(5, 5, 5);
+    padding-bottom: 100px ;
+}
+
+#contact {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+body {
+    background-color: rgb(34, 33, 33);
 }
