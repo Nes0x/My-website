@@ -22,11 +22,10 @@ header a {
 ul li {
     display: inline;
     margin-left: 20px;
-    
 }
+
 ul {
     text-align: center;
-    
 }
 
 header {
@@ -41,7 +40,6 @@ header {
     width: 100%;
     text-align: center;
 }
-
 
 body {
     background-color: rgb(34, 33, 33);
