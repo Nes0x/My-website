@@ -1,15 +1,14 @@
 @font-face {
     src: url("fonts/JetBrainsMono-Regular.ttf");
     font-family: Regular;
-    } 
-.center {
-    text-align: center;
-}
+} 
+
 .bigger-font {
     font-size: 90px;
 }
 
-main, .better-font, footer a, main a {
+main, footer, footer a, main a {
+    text-align: center;
     color: rgb(201, 195, 195);
     font-family: Regular;
 }
@@ -19,9 +18,10 @@ header a {
     font-family: Regular;
     text-decoration: none;
 }
+
 ul li {
     display: inline;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 ul {
