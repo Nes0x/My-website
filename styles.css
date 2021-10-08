@@ -1,49 +1,129 @@
-@font-face {
-    src: url("fonts/JetBrainsMono-Regular.ttf");
-    font-family: Regular;
-} 
-
-.bigger-font {
-    font-size: 90px;
+html {
+    scroll-behavior: smooth;
 }
 
-main, footer, footer a, main a {
-    text-align: center;
-    color: rgb(201, 195, 195);
-    font-family: Regular;
-}
-
-header a {
-    color: aliceblue;
-    font-family: Regular;
-    text-decoration: none;
-}
-
-ul li {
-    display: inline;
-    margin-left: 10px;
-}
-
-ul {
-    text-align: center;
-}
-
-header {
-    margin: 0;
-    padding: 5px 0;
-    background-color: rgb(5, 5, 5);
-}
-
-#contact {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
 
 body {
     margin: 0;
     padding: 0;
+    background-color: white;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 10px 10px -5px rgba(0,0,0,0.1);
+
+
+}
+
+#menu a, #menu li {
+    color: rgb(56, 51, 51);
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    font-size: 1.3rem;
+}
+
+#menu a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+
+.text { 
+    font-size: 1.5rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+h1.section-heading {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container-skills {
+    padding: 100px;
+    color: rgb(238, 230, 230);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+}
+
+.skill-information {
+    margin: 20px;
+}
+
+.skill-information progress {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.skill-information progress::-webkit-progress-value {
+    background-color: white;
+    border-radius: 0;
+}
+
+.skill-information progress::-webkit-progress-bar {
+    background-color: black;
+}
+
+section {
+   margin-top: 100px;
+}
+
+
+.project {
+    text-align: center;
+    margin: 20px;
+}
+
+.project a {
+    color: grey;
+}
+
+.project p {
+    font-size: 1.5rem;
+}
+
+.container-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-contact {
+    padding: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.container-contact a {
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+#error {
     background-color: rgb(34, 33, 33);
+    text-align: center;
+    color: rgb(218, 214, 214);
+}
+
+#error a {
+    color: rgb(129, 123, 123);
 }

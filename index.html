@@ -5,37 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nes0x">
-    <meta name="description" content="Strona zrobiona przez Nes0xa.">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="description" content="Strona z portfoliem Nes0xa.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpeg" href="images/logo.jpg">
-    <title>Nes0x</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <title>Nes0x | Strona główna</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">Strona główna</a></li>
-                <li><a href="projects">Moje projekty</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="#home">Strona główna</a></li>
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#skills">Umiejętności</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
 
     <main>
-        <h1>O mnie</h1>
-        <p>
-            Jestem Nes0x i lubie pisać kod.<br>
-            Umiem jave, pythona a teraz uczę się frontendu(html, css, js).<br>
-            Wybierz z zakładek powyżej co chcesz zobaczyć!
-        </p>
+        <section id="home">
+            <div class="text">
+                Hej, jestem Nes0x
+            </div>
+        </section>
+
+        <section id="about">
+            <h1 class="section-heading">O mnie</h1>
+            <div class="text">
+                <p>Uczę się programowania od 6 miesięcy.</p>
+                <p>Aktualnie umiem Jave i Pythona, teraz jak widać uczę sie frontendu.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1 class="section-heading">Moje Umiejętności</h1>
+            <div class="container-skills">
+                <div class="skill-information">
+                    <p> <i class="fab fa-java fa-3x"></i> </p>
+                    <p> Java </p>
+                    <p> <progress value="80" max="100"> </p>
+                </div>
+                <div class="skill-information">
+                    <p> <i class="fab fa-html5 fa-3x"></i> </p>
+                    <p> HTML5 </p>
+                    <p> <progress value="80" max="100"> </p>
+                </div>
+                <div class="skill-information">
+                    <p> <i class="fab fa-css3 fa-3x"></i> </p>
+                    <p> CSS3 </p>
+                    <p> <progress value="70" max="100"> </p>
+                </div>
+                <div class="skill-information">
+                    <p> <i class="fab fa-python fa-3x"></i> </p>
+                    <p> Python </p>
+                    <p> <progress value="65" max="100"> </p>
+                </div>
+                <div class="skill-information">
+                    <p> <i class="fab fa-js fa-3x"></i> </p>
+                    <p> JavaScript </p>
+                    <p> <progress value="30" max="100"> </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1 class="section-heading">Moje prace</h1>
+            <div class="container-projects">
+                <div class="project">
+                    <p><img src="https://cdn.discordapp.com/attachments/876772489492070413/895957230627745792/unknown.png" alt="" width="300px"></p>
+    
+                    <p><a href="https://github.com/Nes0x/FoodClicker" target="blank">FoodClicker</a></p>
+                </div>
+            </div>
+
+        </section>
+
     </main>
 
     <footer id="contact">
-        <p>
-            Discord: Nes0x#7777 |
-            <a target="blank" href="https://github.com/Nes0x">Mój github</a> |
-            <a target="blank" href="https://dc.nesox.cf">Mój serwer discord</a>
-        </p>
+
+        <div class="container-contact">
+            <h1 class="section-heading">Kontakt</h1>
+            <p>
+                <a href="https://github.com/Nes0x" target="blank"> <i class="fab fa-github"> </i> Github</a>
+                <a href="https://dc.nesox.cf" target="blank"> <i class="fab fa-discord"> </i> Discord</a>
+            </p> 
+        </div>
     </footer>
 </body>
 </html>
