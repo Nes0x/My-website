@@ -11,7 +11,7 @@ body {
 }
 
 #menu {
-    margin: 0;
+    margin: 2;
     padding: 5px 0;
     width: 100%;
     height: 50px;
@@ -20,8 +20,6 @@ body {
     left: 0;
     background-color: white;
     box-shadow: 0 10px 10px -5px rgba(0,0,0,0.1);
-
-
 }
 
 #menu a, #menu li {
@@ -30,7 +28,7 @@ body {
     text-decoration: none;
     list-style: none;
     display: inline;
-    margin: 5px;
+    margin: 2px;
     font-size: 1.3rem;
 }
 
@@ -42,7 +40,7 @@ body {
 
 .text { 
     font-size: 1.5rem;
-    margin-left: 6rem;
+    text-align: center;
     margin-top: 2rem;
 }
 
@@ -52,7 +50,7 @@ h1.section-heading {
 }
 
 .container-skills {
-    padding: 100px;
+    padding: 106px;
     color: rgb(238, 230, 230);
     text-align: center;
     display: flex;
