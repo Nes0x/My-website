@@ -14,7 +14,7 @@ body {
     margin: 2;
     padding: 5px 0;
     width: 100%;
-    height: 65px;
+    height: 62px;
     position: sticky;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@ body {
     list-style: none;
     display: inline;
     margin: 2px;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
 }
 
 #menu a:hover {
