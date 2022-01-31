@@ -18,12 +18,14 @@ body {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: white;
+    /* background-color: white; */
+    background-color: rgb(48, 45, 45);
     box-shadow: 0 10px 10px -5px rgba(0,0,0,0.1);
 }
 
 #menu a, #menu li {
-    color: rgb(56, 51, 51);
+    /* color: rgb(56, 51, 51); */
+    color: rgb(219, 217, 217);
     text-align: center;
     text-decoration: none;
     list-style: none;
@@ -111,7 +113,7 @@ section {
 }
 
 .container-contact a {
-    margin-left: 50px;
+    margin-left: 20px;
     color: white;
     text-decoration: none;
 }
