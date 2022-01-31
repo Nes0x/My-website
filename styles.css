@@ -30,7 +30,8 @@ body {
     text-decoration: none;
     list-style: none;
     display: inline;
-    font-size: 1.25rem;
+    margin: 2px;
+    font-size: 1.1rem;
 }
 
 #menu a:hover {
