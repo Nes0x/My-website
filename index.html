@@ -107,19 +107,16 @@
 
     <script>
         function discord() {
-          alert("Mój discord: ! Nes0x#3507")
+          alert("Mój discord: ! Nes0x#3507");
         }
 
         window.onload = function(){
-            var date_past = new Date(2020, 5, 1)
-            var date_today = new Date()
-            var diff = new Date(date_today.getTime() - date_past.getTime())
-            var years = diff.getUTCFullYear() - 1970)
-            var months = diff.getUTCMonth()
-            var days = diff.getUTCDate() - 1
-            document.getElementById("date").innerText = "Uczę się programowania od Maja 2021 czyli: " + years + " rok/lata " + months + " miesięcy " + days + " dni" 
+            let today = new Date()
+            let form_date = new Date('2021-05-01')
+            let difference = form_date > today ? form_date - today : today - form_date
+            let diff_days = Math.floor(difference / (1000*3600*24))
+            document.getElementById("date").innerText = "Uczę się programowania od Maja 2021 czyli: " + diff_days + " dni";
         }
     </script>
-
 </body>
 </html>
