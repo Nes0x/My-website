@@ -105,19 +105,6 @@
         </div>
     </footer>
 
-    <script>
-        function discord() {
-          alert("Mój discord: ! Nes0x#3507")
-        }
-
-        window.onload = function(){
-            let today = new Date()
-            let form_date = new Date('2021-05-01')
-            let difference = form_date > today ? form_date - today : today - form_date
-            let days = Math.floor(difference / (1000*3600*24))
-            let months = (today.getFullYear()*12 + today.getMonth()) - (form_date.getFullYear()*12 + form_date.getMonth())
-            document.getElementById("date").innerText = "Uczę się programowania od Maja 2021 czyli: " + days + " dni(" + months + " miesięcy)"
-        }
-    </script>
+    <script src="scripts.js"></script>
 </body>
 </html>
